@@ -38,10 +38,9 @@ class LocatorsAccountPage:
 
 # Локаторы для конструктора
 class LocatorsConstructor:
-    bun_button = (By.XPATH, "//span[text()='Булки']")  # Локатор кнопки "Булки"
-    sauce_button = (By.XPATH, "//span[text()='Соусы']")  # Локатор кнопки "Соусы"
-    ingredient_button = (By.XPATH, "//span[text()='Начинки']")  # Локатор кнопки "Начинки"
+    bun_button = (By.XPATH, "//span[text()='Булки']/parent::div")  # Локатор кнопки "Булки"
+    sauce_button = (By.XPATH, "//span[text()='Соусы']/parent::div")  # Локатор кнопки Соусы
+    ingredient_button = (By.XPATH, "//span[text()='Начинки']/parent::div")  # Локатор кнопки "Начинки"
     active_button = By.XPATH, ('//div[@class = '
-                                 '"tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect"]')
+                               '"tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect"]')
     # Локатор активного элемента в конструкторе
-
