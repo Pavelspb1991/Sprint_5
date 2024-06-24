@@ -1,6 +1,6 @@
 class Url:
-    registration_page_url = 'https://stellarburgers.nomoreparties.site/register'  # Страница регистрации
     main_page_url = 'https://stellarburgers.nomoreparties.site/'  # Главная страница
-    login_page_url = 'https://stellarburgers.nomoreparties.site/login'  # Страница с логином
-    forgot_password_page_url = 'https://stellarburgers.nomoreparties.site/forgot-password'  # Страница забыли пароль
-    profile_page_url = 'https://stellarburgers.nomoreparties.site/account/profile'  # Страница профиля пользователя
+    registration_page_url = f'{main_page_url}register'  # Страница регистрации
+    login_page_url = f'{main_page_url}login'  # Страница с логином
+    forgot_password_page_url = f'{main_page_url}forgot-password'  # Страница забыли пароль
+    profile_page_url = f'{main_page_url}account/profile'  # Страница профиля пользователя
